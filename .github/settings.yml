@@ -1,7 +1,7 @@
 ---
 repository:
-  name: homeshick-private
-  description: Dotfile management for private
+  name: homeshick-desktop
+  description: "Dotfiles: Desktop"
   topics: dotfiles, homeshick
 
   private: false

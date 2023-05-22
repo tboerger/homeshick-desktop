@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.startupEditor": "none",
+
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+
+    "editor.rulers": [
+        80
+    ],
+
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "go.useLanguageServer": true,
+
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    }
+}

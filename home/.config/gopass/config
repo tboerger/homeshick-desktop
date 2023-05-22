@@ -1,0 +1,27 @@
+[core]
+    notifications = true
+    exportkeys = true
+    autoimport = true
+    cliptimeout = 45
+    autoclip = false
+    showsafecontent = false
+    parsing = true
+    nopager = false
+
+[age]
+    usekeychain = false
+
+[mounts]
+    path = /home/thomas/.local/share/gopass/stores/root
+
+[mounts "cloudpunks"]
+    path = /home/thomas/.local/share/gopass/stores/cloudpunks
+[mounts "restlos"]
+    path = /home/thomas/.local/share/gopass/stores/restlos
+[mounts "adorsys"]
+    path = /home/thomas/.local/share/gopass/stores/adorsys
+
+[mounts "gopad"]
+    path = /home/thomas/.local/share/gopass/stores/gopad
+[mounts "kleister"]
+    path = /home/thomas/.local/share/gopass/stores/kleister

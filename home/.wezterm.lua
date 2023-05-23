@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 return {
     check_for_updates = false,
-    color_scheme = "Solarized Dark (base16)",
+    color_scheme = "nord",
     font_size = 12.0,
 
     exit_behavior = "Close",

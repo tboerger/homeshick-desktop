@@ -8,17 +8,18 @@ return {
     exit_behavior = "Close",
     scrollback_lines = 100000,
     enable_scroll_bar = false,
+    warn_about_missing_glyphs = false,
 
     keys = {
         {
             mods = "CTRL|SHIFT",
             key = "c",
-            action = "Copy"
+            action = wezterm.action{ CopyTo="Clipboard" }
         },
         {
             mods = "CTRL|SHIFT",
             key = "v",
-            action = "Paste"
+            action = wezterm.action{ PasteFrom="Clipboard" }
         },
 
         {
